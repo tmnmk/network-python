@@ -1,0 +1,6 @@
+user-interface console 0
+set authentication password cipher <password>
+quit
+quit
+save
+Yes

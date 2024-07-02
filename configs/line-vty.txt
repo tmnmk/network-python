@@ -1,0 +1,6 @@
+user-interface vty 0 4
+idle-timeout 60 0
+quit
+quit
+save
+Yes

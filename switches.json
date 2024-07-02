@@ -1,0 +1,30 @@
+{
+    "switches": [
+        {
+            "name": "ALFA-CORE-SW01",
+            "ip": "10.0.0.11"
+        },
+        {
+            "name": "ALFA-ACCESS-SW01",
+            "ip": "10.0.0.21"
+        },
+        {
+            "name": "BETA-CORE-SW01",
+            "ip": "10.0.1.11"
+        },
+        {
+            "name": "BETA-ACCESS-SW01",
+            "ip": "10.0.1.21"
+        }
+    ],
+    "groups": {
+        "access": [
+            "ALFA-ACCESS-SW01",
+            "BETA-ACCESS-SW01"
+        ],
+        "core": [
+            "ALFA-CORE-SW01",
+            "BETA-CORE-SW01"
+        ]
+    }
+}

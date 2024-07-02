@@ -1,0 +1,28 @@
+interfaces:
+  ae1:
+    comment: NET1
+    ip_address: 10.10.16.1/24
+    virtual_router: LAN
+    zone: NET1
+    management_profile: "Ping from LAN"
+    subinterfaces:
+      - vlan_id: 1016
+        vlan_tag: 1016
+  ae1:
+    comment: NET2
+    ip_address: 10.10.17.1/24
+    virtual_router: LAN
+    zone: NET2
+    management_profile: "Ping from LAN"
+    subinterfaces:
+      - vlan_id: 1017
+        vlan_tag: 1017
+  ae1:
+    comment: NET3
+    ip_address: 10.10.18.1/24
+    virtual_router: LAN
+    zone: NET3
+    management_profile: "Ping from LAN"
+    subinterfaces:
+      - vlan_id: 1018
+        vlan_tag: 1018
